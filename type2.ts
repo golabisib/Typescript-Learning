@@ -8,7 +8,7 @@ const person: {
     hobbies: ["Sport", "Coding"],
 }
 let favoriteBooks: (string | number)[];
-favoriteBooks = ["golabiBook", "sibBook"], 2
+favoriteBooks = ["golabiBook", "sibBook", 2]
 
 console.log(person.name)
 
