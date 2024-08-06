@@ -7,4 +7,8 @@ function printResultTwo(num: number){
 }
 
 printResultTwo(addTwo(5,10))
-console.log(printResultTwo(addTwo(5,10)))
+
+let combineValues : (num1: number, num2: number) => number;
+combineValues = addTwo;
+
+console.log(combineValues(2,2))
