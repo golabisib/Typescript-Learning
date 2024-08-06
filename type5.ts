@@ -1,4 +1,6 @@
-function combine(input1: number | string, input2: number | string) {
+type numing = number | string;
+
+function combine(input1: numing, input2: numing) {
     let result : number | string ;
     if (typeof input1 === "number" && typeof input2 === "number"){
         result = input1 + input2;
