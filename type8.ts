@@ -13,4 +13,14 @@ const car : Car = {
     type: carType,
 }
 
-console.log(car)
+interface Rectangle {
+    height: number,
+    width: number,
+}
+
+const rectangle : Rectangle = {
+    height: 20,
+    width: 10,
+}
+
+console.log(rectangle)

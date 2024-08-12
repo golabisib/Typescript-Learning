@@ -4,4 +4,8 @@ var car = {
     year: carYear,
     type: carType,
 };
-console.log(car);
+var rectangle = {
+    height: 20,
+    width: 10,
+};
+console.log(rectangle);
