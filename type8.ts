@@ -1,5 +1,5 @@
 type CarYear = number
-type CarType = string
+type CarType = string | number
 type Car = {
     year: CarYear,
     type: CarType,
